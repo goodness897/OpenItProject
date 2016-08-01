@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">OPENRIDER</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="openrider">오픈라이더</string>
+    <string name="speedmeter">속도계</string>
+    <string name="searchriding">자전거 길찾기</string>
+    <string name="recommend">추천 경로</string>
+    <string name="riding_record">주행 기록</string>
+    <string name="ranking">랭킹</string>
+    <string name="friend">친구</string>
+    <string name="store">스토어</string>
+    <string name="sponsor">개발팀 후원하기</string>
+    <string name="notice">공지사항</string>
+    <string name="setting">설정</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B8CD2</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_openrider_distance">#1B8BD2</color>
+    <color name="color_openrider_calory">#E5214A</color>
+    <color name="color_openrider_time">#7B7B7B</color>
+</resources>
