@@ -93,6 +93,11 @@ public class OpenRiderFragment extends Fragment {
         uv_data.setStandby(10);
         uvView.setUvView(uv_data);
 
+        getActivity().setTitle(getResources().getString(R.string.en_openrider));
+
+
+
+
     }
 
     private SpannableString setSpanSizeText(String s, float size, int start, int end, int flag) {
