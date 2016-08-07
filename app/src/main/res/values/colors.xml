@@ -7,4 +7,12 @@
     <color name="color_openrider_distance">#1B8BD2</color>
     <color name="color_openrider_calory">#E5214A</color>
     <color name="color_openrider_time">#7B7B7B</color>
+
+    <color name="color_opeprider_speedmeter_headerview">#7E7E7E</color>
+    <color name="color_openrider_speedmeter_footerview">#E3E3E3</color>
+
+    <color name="color_oeprndier_speedmeter_footerview_leftbutton">#1A5DC4</color>
+    <color name="color_oeprndier_speedmeter_footerview_rightbutton">#4F4F4F</color>
+
+    <color name="color_openrider_speedmeter_headerview_speedmeterview">#444444</color>
 </resources>

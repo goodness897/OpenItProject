@@ -9,4 +9,6 @@
     <dimen name="view_paddingtop">10dp</dimen>
     <dimen name="small_view_margin">5dp</dimen>
     <dimen name="textsize_openrider_distance">40sp</dimen>
+    <dimen name="textsize_speedmeter_footer">20sp</dimen>
+    <dimen name="dimen_text_speedmeter_margin">10dp</dimen>
 </resources>

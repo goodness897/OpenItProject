@@ -22,12 +22,10 @@ public class UvView extends FrameLayout{
         mData = data;
         uvText.setText("" + data.getUv());
         standbyText.setText("" + data.getStandby());
-
-
     }
 
     public UvView(Context context) {
-        super(context);
+        this(context, null);
         init();
     }
 

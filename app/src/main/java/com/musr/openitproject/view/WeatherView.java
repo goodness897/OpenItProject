@@ -28,7 +28,7 @@ public class WeatherView extends FrameLayout {
     }
 
     public WeatherView(Context context) {
-        super(context);
+        this(context, null);
         init();
     }
 

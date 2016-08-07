@@ -24,7 +24,7 @@ public class WindView extends FrameLayout {
     }
 
     public WindView(Context context) {
-        super(context);
+        this(context, null);
         init();
     }
 
