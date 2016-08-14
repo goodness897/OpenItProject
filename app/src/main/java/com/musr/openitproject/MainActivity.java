@@ -86,6 +86,9 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_speedmeter:
                 fragmentClass = SpeedMeterFragment.class;
                 break;
+            case R.id.nav_searchriding:
+                fragmentClass = SearchRidingFragment.class;
+                break;
             default:
                 fragmentClass = OpenRiderFragment.class;
         }
