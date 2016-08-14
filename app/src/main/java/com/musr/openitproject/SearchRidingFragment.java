@@ -1,6 +1,5 @@
 package com.musr.openitproject;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTabHost;
@@ -8,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 
 public class SearchRidingFragment extends Fragment {
 
@@ -40,10 +38,9 @@ public class SearchRidingFragment extends Fragment {
         tabHost.addTab(tabHost.newTabSpec("tab1").setIndicator(getResources().getString(R.string.search_tab_child_two)), SearchRidingChildOneFragment.class, null);
 
         for (int i = 0; i < tabHost.getTabWidget().getChildCount(); i++) {
-            View v = tabHost.getTabWidget().getChildAt(i);
 
             TextView tv = (TextView) tabHost.getTabWidget().getChildAt(i).findViewById(android.R.id.title);
-            tv.setTextColor(getResources().getColor(R.color.white));
+            tv.setTextColor(0xFFFFFFFF);
         }
 
         return view;
