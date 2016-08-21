@@ -16,4 +16,18 @@
     <color name="color_oeprndier_speedmeter_footerview_rightbutton">#4F4F4F</color>
 
     <color name="color_openrider_speedmeter_headerview_speedmeterview">#444444</color>
+
+    <color name="color_openrider_search_riding_child_text">#FDBD30</color>
+
+    <color name="color_openrider_search_btn_background">#E5E5E5</color>
+
+
+    <color name="btn_openrider_selected_background">#1B8BD2</color>
+    <color name="btn_openrider_background">#A5A5A5</color>
+
+    <color name="color_store_background">#4285F4</color>
+
+    <color name="color_store_discount_text">#F44336</color>
+    <color name="color_store_price_text">#9F9F9F</color>
+
 </resources>

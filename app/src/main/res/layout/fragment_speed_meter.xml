@@ -8,13 +8,13 @@
     <!-- TODO: Update blank fragment layout -->
 
     <LinearLayout
-        android:layout_weight="0.5"
+        android:layout_weight="0.3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@color/color_opeprider_speedmeter_headerview">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="25dp"
             android:layout_margin="@dimen/activity_vertical_margin"
             android:background="@color/color_openrider_speedmeter_headerview_speedmeterview"
             android:orientation="horizontal">
@@ -83,13 +83,14 @@
     </LinearLayout>
 
     <RelativeLayout
+        android:background="@color/white"
         android:layout_weight="2"
         android:layout_width="match_parent"
         android:layout_height="0dp">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:id="@+id/imageView2"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
@@ -126,7 +127,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal"
-        android:layout_weight="0.5"
+        android:layout_weight="0.3"
         android:background="@color/color_openrider_speedmeter_footerview"
         android:layout_gravity="center_horizontal|bottom"
         android:layout_alignParentBottom="true"
@@ -175,7 +176,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.3"
+        android:layout_weight="0.2"
         android:orientation="horizontal"
         android:background="@color/color_openrider_speedmeter_footerview">
 

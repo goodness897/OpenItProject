@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/image_store_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/store_sample01" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/text_title"
+        android:layout_below="@+id/image_store_photo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/activity_vertical_margin" />
+
+    <TextView
+        android:textColor="@color/color_store_price_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/text_price"
+        android:layout_alignTop="@+id/text_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:textColor="@color/color_store_discount_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/text_discount"
+        android:layout_below="@+id/text_price"
+        android:layout_toLeftOf="@+id/text_price"
+        android:layout_toStartOf="@+id/text_price"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/text_discount_price"
+        android:layout_below="@+id/text_price"
+        android:layout_toRightOf="@+id/text_discount"
+        android:layout_marginRight="8dp"
+        android:textStyle="bold" />
+</RelativeLayout>

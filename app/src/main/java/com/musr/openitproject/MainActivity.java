@@ -89,6 +89,21 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_searchriding:
                 fragmentClass = SearchRidingFragment.class;
                 break;
+            case R.id.nav_recommend:
+                fragmentClass = RecommendFragment.class;
+                break;
+            case R.id.nav_record:
+                fragmentClass = RidingRecordFragment.class;
+                break;
+            case R.id.nav_ranking:
+                fragmentClass = RankingFragment.class;
+                break;
+            case R.id.nav_friend:
+                fragmentClass = FriendFragment.class;
+                break;
+            case R.id.nav_store:
+                fragmentClass = StoreFragment.class;
+                break;
             default:
                 fragmentClass = OpenRiderFragment.class;
         }

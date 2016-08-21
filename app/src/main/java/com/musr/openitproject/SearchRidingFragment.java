@@ -31,17 +31,17 @@ public class SearchRidingFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view =  inflater.inflate(R.layout.fragment_search_riding, container, false);
-        tabHost = (FragmentTabHost)view.findViewById(R.id.tabhost);
+        View view = inflater.inflate(R.layout.fragment_search_riding, container, false);
+        tabHost = (FragmentTabHost) view.findViewById(R.id.tabhost);
         tabHost.setup(getContext(), getChildFragmentManager(), android.R.id.tabcontent);
         tabHost.addTab(tabHost.newTabSpec("tab1").setIndicator(getResources().getString(R.string.search_tab_child_one)), SearchRidingChildOneFragment.class, null);
         tabHost.addTab(tabHost.newTabSpec("tab1").setIndicator(getResources().getString(R.string.search_tab_child_two)), SearchRidingChildOneFragment.class, null);
 
         for (int i = 0; i < tabHost.getTabWidget().getChildCount(); i++) {
-
             TextView tv = (TextView) tabHost.getTabWidget().getChildAt(i).findViewById(android.R.id.title);
             tv.setTextColor(0xFFFFFFFF);
         }
+        getActivity().setTitle(getResources().getString(R.string.searchriding));
 
         return view;
     }

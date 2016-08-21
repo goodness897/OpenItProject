@@ -1,13 +1,64 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.musr.openitproject.FriendFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="60dp"
+        android:layout_gravity="left|top"
+        android:background="@color/colorPrimary"
+        android:id="@+id/linearLayout3">
 
-</FrameLayout>
+        <EditText
+            android:hint="@string/friend_input_hint"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="#ffffff"
+            android:layout_weight="5" />
+
+        <ImageView
+            android:src="@android:drawable/ic_menu_search"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <android.support.v4.app.FragmentTabHost
+            android:id="@+id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TabWidget
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4F4F4F"
+                    android:id="@android:id/tabs"/>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:id="@android:id/tabcontent"/>
+            </LinearLayout>
+        </android.support.v4.app.FragmentTabHost>
+
+
+    </LinearLayout>
+
+</LinearLayout>

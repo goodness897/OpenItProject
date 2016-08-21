@@ -24,6 +24,39 @@
 
     <string name="search_tab_child_one">최근 검색</string>
     <string name="search_tab_child_two">즐겨찾기</string>
+    <string name="search_riding_store">대리점 / 매장</string>
+    <string name="search_riding_bicycle">공공자전거</string>
+    <string name="search_riding_convenient">편의시설</string>
+    <string name="search_riding_certificate">인증센터</string>
+    <string name="search_riding_child_text">지도에서 지정</string>
 
+    <string name="recommend_riding_child_one">인기</string>
+    <string name="recommend_riding_child_two">신규</string>
+    <string name="recommend_riding_child_three">내주변</string>
+    <string name="recommend_riding_child_four">테마</string>
+
+    <string name="recommend_riding_child_popularity_day">일일</string>
+    <string name="recommend_riding_child_popularity_week">주간</string>
+    <string name="recommend_riding_child_popularity_month">월간</string>
+    <string name="recommend_riding_child_popularity_accumulate">누적</string>
+
+    <string name="search_riding_edit_hint_text">장소 / 주소 / 명칭을 입력하세요.</string>
+
+    <string name="riding_record_my_record">내 기록</string>
+    <string name="riding_record_friend_record">친구 기록</string>
+
+    <string name="riding_ranking_distance">거리</string>
+    <string name="riding_ranking_ridingtime">주행시간</string>
+    <string name="riding_ranking_max_speed">최고속도</string>
+    <string name="riding_ranking_average_speed">평균속도</string>
+
+    <string name="friend_following">팔로잉</string>
+    <string name="friend_follower">팔로워</string>
+
+    <string name="friend_no_following">회원님이 팔로잉 중인 친구가 없습니다. 친구를 검색하셔서 팔로우 하시고 함께 라이딩 하세요.</string>
+    <string name="friend_no_follower">회원님을 팔로잉 하는 친구가 없습니다. 친구에게 팔로우를 요청하시고 함께 라이딩하세요.</string>
+    <string name="friend_input_hint">친구 이메일 주소를 입력하세요.</string>
+    <string name="store_event_text">8월 신용카드 무이자 할부 행사 안내</string>
+    <string name="store_event_text02">무통장 입금 계좌번호 안내</string>
 
 </resources>

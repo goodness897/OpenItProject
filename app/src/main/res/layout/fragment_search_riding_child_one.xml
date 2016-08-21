@@ -6,4 +6,23 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+    <LinearLayout
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top">
+
+        <ImageView
+            android:src="@drawable/ic_gps_map"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/search_riding_child_text"
+            android:textColor="@color/color_openrider_search_riding_child_text"/>
+
+    </LinearLayout>
 </FrameLayout>

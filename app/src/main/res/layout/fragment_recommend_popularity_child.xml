@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.musr.openitproject.RecommendPopularityChildFragment">
+
+
+    <LinearLayout
+        android:padding="@dimen/btn_recommend_padding"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:gravity="center">
+
+        <Button
+            android:background="@drawable/btn_selector"
+            android:id="@+id/btn_week"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="주간"
+            android:textColor="@color/white"/>
+        <Button
+            android:background="@drawable/btn_selector"
+            android:id="@+id/btn_month"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="월간"
+            android:textColor="@color/white"/>
+        <Button
+            android:background="@drawable/btn_selector"
+            android:id="@+id/btn_all"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="누적"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</LinearLayout>
