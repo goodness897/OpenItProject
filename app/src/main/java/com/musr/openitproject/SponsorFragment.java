@@ -3,9 +3,15 @@ package com.musr.openitproject;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.musr.openitproject.adapter.RecyclerSponsorAdapter;
+import com.musr.openitproject.data.SponsorData;
 
 
 /**
@@ -55,11 +61,38 @@ public class SponsorFragment extends Fragment {
         }
     }
 
+    RecyclerView listView;
+    RecyclerSponsorAdapter mAdapter;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sponsor, container, false);
+        View view = inflater.inflate(R.layout.fragment_sponsor, container, false);
+
+        listView = (RecyclerView)view.findViewById(R.id.rv_list);
+        listView.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.VERTICAL_LIST));
+        mAdapter = new RecyclerSponsorAdapter();
+        listView.setAdapter(mAdapter);
+
+        LinearLayoutManager manager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);
+        listView.setLayoutManager(manager);
+
+
+        initData();
+
+        return view;
+    }
+    int photo[] = {R.drawable.ic_sponsor_sample01, R.drawable.ic_sponsor_sample02, R.drawable.ic_sponsor_sample03,R.drawable.ic_sponsor_sample04};
+
+    private void initData() {
+        mAdapter.add(new SponsorData(ContextCompat.getDrawable(getContext(), photo[0]),
+                getResources().getString(R.string.sponsor_americano), getResources().getString(R.string.sponsor_americano_content), 2900));
+        mAdapter.add(new SponsorData(ContextCompat.getDrawable(getContext(), photo[1]),
+                getResources().getString(R.string.sponsor_hambuger), getResources().getString(R.string.sponsor_hambuger_content), 2900));
+        mAdapter.add(new SponsorData(ContextCompat.getDrawable(getContext(), photo[2]),
+                getResources().getString(R.string.sponsor_chicken), getResources().getString(R.string.sponsor_chicken_content), 2900));
+        mAdapter.add(new SponsorData(ContextCompat.getDrawable(getContext(), photo[3]),
+                getResources().getString(R.string.sponsor_ad), getResources().getString(R.string.sponsor_ad_content), 0));
     }
 
 }

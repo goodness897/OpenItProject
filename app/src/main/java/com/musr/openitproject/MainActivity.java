@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity
         Fragment fragment = null;
         Class fragmentClass;
         int id = item.getItemId();
-        switch(id) {
+        switch (id) {
             case R.id.nav_openrider:
                 fragmentClass = OpenRiderFragment.class;
                 break;
@@ -103,6 +103,9 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.nav_store:
                 fragmentClass = StoreFragment.class;
+                break;
+            case R.id.nav_sponsor:
+                fragmentClass = SponsorFragment.class;
                 break;
             default:
                 fragmentClass = OpenRiderFragment.class;

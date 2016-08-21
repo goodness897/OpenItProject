@@ -30,4 +30,6 @@
     <color name="color_store_discount_text">#F44336</color>
     <color name="color_store_price_text">#9F9F9F</color>
 
+    <color name="color_sponsor_price">#4FA5DD</color>
+    <color name="color_sponsor_content">#C2C2C2</color>
 </resources>

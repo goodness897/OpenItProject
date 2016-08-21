@@ -58,5 +58,13 @@
     <string name="friend_input_hint">친구 이메일 주소를 입력하세요.</string>
     <string name="store_event_text">8월 신용카드 무이자 할부 행사 안내</string>
     <string name="store_event_text02">무통장 입금 계좌번호 안내</string>
+    <string name="sponsor_americano">개발팀 아메리카노 사주기</string>
+    <string name="sponsor_americano_content">커피 한 잔이면 밤샘은 끄떡없지요.</string>
+    <string name="sponsor_hambuger">개발팀 햄버거 사주기</string>
+    <string name="sponsor_hambuger_content">햄버거는 먹어도 먹어도 맛있지 말입니다.</string>
+    <string name="sponsor_chicken">개발팀 치킨 사주기</string>
+    <string name="sponsor_chicken_content">1인 1닭 먹고 싶습니다!</string>
+    <string name="sponsor_ad">광고 보고 응원 하기</string>
+    <string name="sponsor_ad_content">손 끝으로도 응원할 수 있어요!</string>
 
 </resources>
